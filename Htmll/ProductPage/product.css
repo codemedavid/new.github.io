@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;800&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --primary: #fdaaba;
+  --accent: #eee8a9;
+  --background: #fdfdfd;
+  --background2: #d4f4ff;
+  --accent2: #00deff;
+  --black: #171717;
+  --secondary: #80afdb;
+  --background: #d4f4ff;
+}
+/*Navigation*/
+.logo {
+  width: 100%;
+  max-width: 250px;
+}
+nav {
+}
+.navBar {
+  padding: 32px 0;
+}
+.nav-link {
+  margin-left: 41px;
+}
+.nav-link:hover {
+  color: var(--primary);
+}
+/*Filter and Sort*/
+.filter,
+.sort {
+  color: #171717;
+  background: none;
+  border: 1px solid #fdaaba;
+}
+.filter:hover,
+.sort:hover {
+  background: none;
+  color: #171717;
+  border: 1px solid #fdaaba;
+}
+.filter:focus,
+.sort:focus {
+  background: none;
+  color: #171717;
+  border: 1px solid #fdaaba;
+}
+.dropdown-menu li a:focus {
+  background-color: #d895a3;
+}
+/*Products*/
+.featured-header {
+  font-size: 3rem;
+}
+section.products {
+  background-color: var();
+  width: 100%;
+}
+.price-3,
+.price-4,
+.price-5,
+.price-6 {
+  padding-top: 1.3rem;
+}
+.price-7 {
+  padding-top: 1.5rem;
+}
+.card{
+  border: none;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+.card:hover{
+  translate: 0 -12px;
+  
+}
+.btn-primary {
+  padding: 10px 32px;
+  color: var(--black);
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+}
+.card .btn {
+  border: 1px solid var(--primary);
+  background-color: var(--primary) !important;
+}
+.btn-primary:hover {
+  color: var(--black);
+  border: 1px solid var(--primary);
+  background-color: #d895a3;
+}
+.btn-primary:focus {
+  border: 1px solid var(--primary) !important;
+  outline: none;
+}
+/*Pagination*/
+.pagination ul li a {
+  color: var(--black);
+}
+.pagination ul li a:hover,
+.pagination ul li a:focus {
+  color: var(--black);
+}
+.pagination .active {
+  color: var(--black);
+  border: 1px solid var(--primary);
+  background-color: var(--primary);
+}
+.pagination .active:hover {
+  background-color: #d895a3;
+}

@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;800&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --primary: #fdaaba;
+  --accent: #eee8a9;
+  --background: #fdfdfd;
+  --background2: #d4f4ff;
+  --black: #171717;
+  --secondary: #80afdb;
+  --background: #d4f4ff;
+}
+/*Navigation*/
+.logo {
+  width: 100%;
+  max-width: 250px;
+}
+nav {
+}
+.navBar {
+  padding: 32px 0;
+}
+.nav-link {
+  margin-left: 41px;
+}
+.nav-link:hover {
+  color: var(--primary);
+}
+
+/*Hero Section*/
+section.hero {
+  border-radius: 12px;
+  background-color: var(--background2);
+  padding: 60px 0 30px 0;
+}
+section.hero .text{
+  padding-top: 8rem;
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 73px;
+  color: var(--black);
+}
+section.hero .sub-text, section.backdrop .sub-text, section.backdrop2 .sub-text{
+  padding-top: 10px;
+  line-height: 1.6rem;
+}
+section.hero .hero-img {
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+section.hero .hero-make-txt {
+  color: var(--black);
+}
+section.hero .hero-party-txt {
+  color: var(--primary);
+}
+.buttons {
+  padding-top: 20px;
+}
+.btn {
+  padding: 10px 32px;
+  color: var(--black);
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+}
+.btn:hover {
+  color: var(--black);
+  border: 1px solid var(--primary);
+  background-color: #d895a3;
+}
+/*Testimonial Section*/
+.testimonials {
+ 
+  border-radius: 12px;
+}
+.testimonials-header {
+  font-size: 3rem;
+}
+.testimonial {
+  background-color: var(--accent);
+  border-radius: 12px;
+}
+.testimonial-part {
+    margin-top: 4rem;
+}
+.customer-text {
+  font-size: 1rem;
+}
+/*Products*/
+.featured-header {
+  font-size: 3rem;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+section.featured {
+  background-color: var();
+  width: 100%;
+}
+.price-3,
+.price-4 {
+  padding-top: 1.3rem;
+}
+.card {
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+.card:hover{
+  translate: 0 -12px;
+  
+}
+.btn-primary {
+    padding: 10px 32px;
+    color: var(--black);
+    background-color: var(--primary);
+  }
+  .card .btn{
+    border: 1px solid var(--primary);
+    background-color: var(--primary) !important;
+  }
+  .btn-primary:hover {
+    color: var(--black);
+    border: 2px solid var(--primary);
+    background-color: #d895a3;
+  }
+  
+  .btn-primary:focus {
+    border: none;
+  }
+/*Backdrop*/
+section.backdrop .text, section.backdrop2 .text{
+  padding-top: 8rem;
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 73px;
+  color: var(--black);
+}
+section.backdrop{
+  background-color: var(--background2);
+  border-radius: 12px;
+}
+section.backdrop2{
+  background-color: var(--accent);
+  border-radius: 12px;
+}
+/*Frequently Asked Question*/
+section.faq {
+  margin-top: 60px;
+}
+.faq-header {
+  font-size: 3rem;
+}
+/*Footer*/
+

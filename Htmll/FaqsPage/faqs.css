@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;800&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --primary: #FDAABA;
+    --accent: #EEE8A9;
+    --background: #FDFDFD;
+    --background2: #D4F4FF;
+    --accent2: #00DEFF;
+    --black: #171717;
+    --secondary: #80AFDB;
+    --background: #D4F4FF;
+}
+/*Navigation*/
+.logo{
+    width: 100%;
+    max-width: 250px;
+}
+nav{
+    
+}
+.navBar{
+    padding: 32px 0;
+}
+.nav-link{
+    margin-left: 41px;
+}
+.nav-link:hover{
+    color: var(--primary);
+}
+/*Frequently Asked Question*/
+section.faq{
+    margin-top: 60px;
+}
+.faq-header{
+    font-size: 3rem;
+}
